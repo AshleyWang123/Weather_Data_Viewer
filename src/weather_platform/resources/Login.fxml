@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="login_pane" prefHeight="1000.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weather_platform.Login">
+   <children>
+      <Label layoutX="151.0" layoutY="230.0" text="Welcome To Meteorological Station Query Platform " textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="270.0" layoutY="341.0" text="Test Account: test:123456" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="236.0" layoutY="433.0" text="Username :" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtUsername" layoutX="436.0" layoutY="433.0" />
+      <Label layoutX="236.0" layoutY="553.0" text="Password :" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="pfPassword" layoutX="436.0" layoutY="553.0" />
+      <Button fx:id="quit" layoutX="270.0" layoutY="663.0" mnemonicParsing="false" onAction="#quit" text="Quit" />
+      <Button fx:id="btnSubmit" layoutX="500.0" layoutY="663.0" mnemonicParsing="false" onAction="#handleSubmit" text="Login" />
+   </children>
+</AnchorPane>

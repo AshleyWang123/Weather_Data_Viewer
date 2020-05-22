@@ -1,0 +1,52 @@
+.root{
+    -fx-background-image: url("bg.png");
+    -fx-background-size: 900 1000;
+}
+
+.button{
+    -fx-background-color: white;
+    -fx-background-insets: 0,9 9 8 9,9,10,11;
+    -fx-background-radius: 50;
+    -fx-font-family: "Helvetica";
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.1) , 2, 0.0 , 0 , 1);
+}
+
+.text-field,.password-field{
+    -fx-background-radius: 50;
+}
+
+#login_pane >.label {
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, white, 0, 0, 0, 1);
+}
+.label{
+    -fx-effect: dropshadow(gaussian, white, 0, 0, 0, 1);
+}
+
+.table-view{
+    -fx-background-radius: 2%;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, white;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #ddeaf8;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005797;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
+
+.chart {
+    -fx-background-color: white;
+    -fx-background-radius: 2%;
+}
+

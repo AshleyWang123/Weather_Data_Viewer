@@ -1,0 +1,262 @@
+**When the year is"0000", it means the station lack of data.**
+
+
+Number: 1
+Station: Durham
+Highest: 0/0000 : 0.0
+Lowest: 0/0000 : 0.0
+Average annual af: 0.0
+Average annual rainfall: 0.0
+
+Number: 2
+Station: Braemar
+Highest: 7/2015 : 21.9
+Lowest: 12/2012 : -8.1
+Average annual af: 107.56
+Average annual rainfall: 938.53
+
+Number: 3
+Station: Heathrow
+Highest: 7/2015 : 27.0
+Lowest: 12/2012 : -1.5
+Average annual af: 28.33
+Average annual rainfall: 619.1
+
+Number: 4
+Station: Oxford
+Highest: 7/2015 : 25.5
+Lowest: 12/2012 : -2.2
+Average annual af: 34.44
+Average annual rainfall: 662.04
+
+Number: 5
+Station: Shawbury
+Highest: 7/2015 : 24.1
+Lowest: 12/2012 : -5.8
+Average annual af: 56.89
+Average annual rainfall: 669.73
+
+Number: 6
+Station: Ross-on-Wye
+Highest: 7/2015 : 25.5
+Lowest: 12/2012 : -4.3
+Average annual af: 41.78
+Average annual rainfall: 750.71
+
+Number: 7
+Station: Lowestoft
+Highest: 7/2012 : 23.6
+Lowest: 12/2012 : -1.4
+Average annual af: 29.33
+Average annual rainfall: 620.54
+
+Number: 8
+Station: Cambridge NIAB
+Highest: 7/2015 : 25.1
+Lowest: 12/2012 : -2.7
+Average annual af: 39.67
+Average annual rainfall: 536.16
+
+Number: 9
+Station: Sheffield
+Highest: 7/2015 : 24.0
+Lowest: 12/2012 : -1.9
+Average annual af: 26.33
+Average annual rainfall: 789.27
+
+Number: 10
+Station: Camborne
+Highest: 7/2015 : 20.8
+Lowest: 12/2012 : 1.4
+Average annual af: 9.0
+Average annual rainfall: 1085.88
+
+Number: 11
+Station: Ringway
+Highest: 0/0000 : 0.0
+Lowest: 0/0000 : 0.0
+Average annual af: 0.0
+Average annual rainfall: 0.0
+
+Number: 12
+Station: Cwmystwyth
+Highest: 6/2012 : 18.8
+Lowest: 12/2012 : -3.7
+Average annual af: 21.33
+Average annual rainfall: 390.09
+
+Number: 13
+Station: Stornoway Airport
+Highest: 7/2016 : 18.2
+Lowest: 12/2012 : -0.7
+Average annual af: 23.11
+Average annual rainfall: 1233.39
+
+Number: 14
+Station: Chivenor
+Highest: 7/2015 : 23.4
+Lowest: 12/2012 : -2.5
+Average annual af: 21.11
+Average annual rainfall: 966.61
+
+Number: 15
+Station: Waddington
+Highest: 7/2015 : 23.4
+Lowest: 12/2012 : -3.3
+Average annual af: 36.67
+Average annual rainfall: 596.23
+
+Number: 16
+Station: Newton Rigg
+Highest: 7/2015 : 22.5
+Lowest: 12/2012 : -7.0
+Average annual af: 63.56
+Average annual rainfall: 996.74
+
+Number: 17
+Station: Southampton
+Highest: 0/0000 : 0.0
+Lowest: 0/0000 : 0.0
+Average annual af: 0.0
+Average annual rainfall: 0.0
+
+Number: 18
+Station: Aberporth
+Highest: 7/2015 : 20.7
+Lowest: 12/2012 : -0.1
+Average annual af: 16.0
+Average annual rainfall: 933.48
+
+Number: 19
+Station: Dunstaffnage
+Highest: 7/2015 : 20.3
+Lowest: 12/2012 : -2.1
+Average annual af: 28.0
+Average annual rainfall: 1766.29
+
+Number: 20
+Station: Yeovilton
+Highest: 7/2015 : 25.3
+Lowest: 12/2012 : -4.5
+Average annual af: 50.78
+Average annual rainfall: 707.94
+
+Number: 21
+Station: Whitby
+Highest: 7/2015 : 22.4
+Lowest: 12/2012 : -2.2
+Average annual af: 31.33
+Average annual rainfall: 752.67
+
+Number: 22
+Station: Paisley
+Highest: 7/2015 : 22.4
+Lowest: 12/2012 : -4.4
+Average annual af: 42.89
+Average annual rainfall: 1277.59
+
+Number: 23
+Station: Manston
+Highest: 8/2011 : 23.8
+Lowest: 12/2012 : -1.0
+Average annual af: 22.56
+Average annual rainfall: 640.09
+
+Number: 24
+Station: Eskdalemuir
+Highest: 7/2015 : 21.4
+Lowest: 12/2012 : -6.8
+Average annual af: 83.22
+Average annual rainfall: 1936.67
+
+Number: 25
+Station: Armagh
+Highest: 7/2015 : 23.1
+Lowest: 12/2012 : -3.8
+Average annual af: 40.22
+Average annual rainfall: 855.66
+
+Number: 26
+Station: Lerwick
+Highest: 7/2011 : 15.6
+Lowest: 12/2012 : -1.2
+Average annual af: 27.89
+Average annual rainfall: 1276.18
+
+Number: 27
+Station: Hurn
+Highest: 7/2015 : 25.4
+Lowest: 12/2012 : -3.4
+Average annual af: 55.89
+Average annual rainfall: 896.66
+
+Number: 28
+Station: Nairn
+Highest: 7/2015 : 21.8
+Lowest: 12/2012 : -3.7
+Average annual af: 53.67
+Average annual rainfall: 679.0
+
+Number: 29
+Station: Tiree
+Highest: 7/2015 : 17.7
+Lowest: 12/2012 : 0.3
+Average annual af: 10.22
+Average annual rainfall: 1329.63
+
+Number: 30
+Station: Sutton Bonington
+Highest: 7/2015 : 24.3
+Lowest: 12/2012 : -4.0
+Average annual af: 41.11
+Average annual rainfall: 601.77
+
+Number: 31
+Station: Leuchars
+Highest: 7/2015 : 21.4
+Lowest: 12/2012 : -4.1
+Average annual af: 56.67
+Average annual rainfall: 748.42
+
+Number: 32
+Station: Ballypatrick Forest
+Highest: 7/2015 : 19.6
+Lowest: 12/2012 : -0.3
+Average annual af: 23.22
+Average annual rainfall: 1415.91
+
+Number: 33
+Station: Wick Airport
+Highest: 7/2015 : 18.2
+Lowest: 12/2012 : -2.9
+Average annual af: 36.67
+Average annual rainfall: 791.81
+
+Number: 34
+Station: Cardiff Bute Park
+Highest: 7/2015 : 25.0
+Lowest: 12/2012 : -3.4
+Average annual af: 37.33
+Average annual rainfall: 1170.36
+
+Number: 35
+Station: Valley
+Highest: 7/2015 : 21.6
+Lowest: 12/2012 : -0.9
+Average annual af: 19.56
+Average annual rainfall: 875.47
+
+Number: 36
+Station: Bradford
+Highest: 7/2015 : 23.1
+Lowest: 12/2012 : -3.7
+Average annual af: 39.56
+Average annual rainfall: 878.27
+
+Number: 37
+Station: Eastbourne
+Highest: 7/2015 : 22.5
+Lowest: 12/2012 : -0.5
+Average annual af: 16.89
+Average annual rainfall: 795.44
+

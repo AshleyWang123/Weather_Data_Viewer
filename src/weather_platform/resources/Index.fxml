@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weather_platform.Controller">
+   <children>
+      <TabPane  fx:id="tabPane" layoutY="138.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="854.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="Tab1" text="The Latest Data">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TableView fx:id="tableView" layoutX="40.0" layoutY="225.0" prefHeight="589.0" prefWidth="795.0">
+                          <columns>
+                              <TableColumn fx:id="tc1" prefWidth="276.0" text="Station" />
+                              <TableColumn fx:id="tc2" prefWidth="129.0" text="Tmax" />
+                              <TableColumn fx:id="tc3" prefWidth="121.0" text="Tmin" />
+                              <TableColumn fx:id="tc4" prefWidth="125.0" text="Ta" />
+                              <TableColumn fx:id="tc5" prefWidth="125.0" text="Tr" />
+                          </columns>
+                        </TableView>
+                        <Label layoutX="40.0" layoutY="20.0" text="Tamx: Highest monthly mean maximum temperature;">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="60.0" text="Tmin:  Lowest monthly mean minimum temperature;">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="40.0" layoutY="180.0" text="2019 year:" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="177.0" layoutY="180.0" text="Double-clicks the station to view the details." textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="100.0" text="Ta: Total air frost days;">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="40.0" layoutY="140.0" text="Tr: Total rainfall">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <TextField fx:id="filterField" layoutX="520.0" layoutY="70.0" prefHeight="25.0" prefWidth="237.0"/>
+      <Button fx:id="btnlog" layoutX="819.0" layoutY="22.0" mnemonicParsing="false" onAction="#logout" text="Log out" />
+      <Label layoutX="102.0" layoutY="70.0" text="Please enter a station name or number :" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></Label>
+      <Button fx:id="btn" layoutX="822.0" layoutY="105.0" mnemonicParsing="false" text="Report" />
+      <Text layoutX="219.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meteorological Station Query Platform" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Text>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>

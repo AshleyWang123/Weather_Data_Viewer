@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="854.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weather_platform.Details">
+    <children>
+        <TableView fx:id="tableView" layoutX="8.0" layoutY="114.0" prefHeight="707.0" prefWidth="368.0">
+            <columns>
+                <TableColumn fx:id="tc1" prefWidth="60.0" text="Year" />
+                <TableColumn fx:id="tc2" prefWidth="60.0" text="Month" />
+                <TableColumn fx:id="tc3" prefWidth="60.0" text="Tmax" />
+                <TableColumn fx:id="tc4" prefWidth="60.0" text="Tmin" />
+                <TableColumn fx:id="tc5" prefWidth="60.0" text="Af" />
+                <TableColumn fx:id="tc6" prefWidth="50.0" text="Rain" />
+            </columns>
+        </TableView>
+      <BarChart fx:id="barChart" layoutX="386.0" layoutY="114.0" prefHeight="360.0" prefWidth="500.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <StackedBarChart fx:id="stackedBarChart" layoutX="386.0" layoutY="466.0" prefHeight="360.0" prefWidth="500.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </StackedBarChart>
+      <Label layoutX="16.0" layoutY="60.0" text="Tmin: The mean minimum temperature in the month;" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="491.0" layoutY="30.0" text="Rain: The total rainfall in the month;" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="30.0" text="Tmax: The mean maximum temperature in the month;" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="483.0" layoutY="60.0" text="Af: The number of days of air frost in the month" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+    </children>
+</Pane>
